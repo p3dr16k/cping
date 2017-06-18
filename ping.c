@@ -117,6 +117,7 @@ int main (int argc, char **argv)
 	for(int i = 0; i < atoi(argv[2]); i++)
 	{
 		ping(argv[1]);
+		sleep(1);
 	}
 	return 0;
 }
